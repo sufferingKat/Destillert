@@ -139,8 +139,10 @@ li.logo > div {
 li.logo > div > img, .buttonmagic > a > img, #destillert-footer > div > div {
     display: inline-block;
     margin: auto;
+    height: auto;
     width: auto;
-    height: 35%;
+    max-height: 11vw;
+    max-width: 8vw;
     vertical-align: middle;
     background-color: inherit;
 }
