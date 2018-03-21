@@ -1,0 +1,264 @@
+#page {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #FFF;
+    color: #000;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    object-fit: contain;
+}
+
+ol, ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+#header {
+    height: 4.5vw;
+}
+
+#block-views-viewstuff-block-1, #block-views-viewstuff-block-2 {
+    color: #FFF;
+}
+
+/*Styling of parts*/
+
+/* Innomhus */
+#block-views-viewstuff-block-1 > div > div > div > div:nth-child(1) > div > ul > li.logo {
+    background-color: #F0F0F0;
+}
+#block-views-viewstuff-block-1 > div > div > div > div:nth-child(1) > div > ul > li.deskripsjon {
+    background-color: #27BBAD;
+}
+/* Byhus */
+#block-views-viewstuff-block-1 > div > div > div > div:nth-child(2) > div > ul > li.logo {
+    background-color: #E3E3E3;
+}
+#block-views-viewstuff-block-1 > div > div > div > div:nth-child(2) > div > ul > li.deskripsjon {
+    background-color: #117F88;
+}
+/* Næringshus */
+#block-views-viewstuff-block-1 > div > div > div > div:nth-child(3) > div > ul > li.logo {
+    background-color: #D1D1D1;
+}
+#block-views-viewstuff-block-1 > div > div > div > div:nth-child(3) > div > ul > li.deskripsjon {
+    background-color: #00BABE;
+}
+/* Byhus utvikling */
+#block-views-viewstuff-block-2 > div > div > div > div:nth-child(1) > div > ul > li.logo {
+    background-color: #FCFAFA;
+}
+#block-views-viewstuff-block-2 > div > div > div > div:nth-child(1) > div > ul > li.deskripsjon {
+    background-color: #458989;
+}
+/* Townhouse */
+#block-views-viewstuff-block-2 > div > div > div > div:nth-child(2) > div > ul > li.logo {
+    background-color: #F0F0F0;
+}
+#block-views-viewstuff-block-2 > div > div > div > div:nth-child(2) > div > ul > li.deskripsjon {
+    background-color: #9CB2BE;
+}
+/* Innpro */
+#block-views-viewstuff-block-2 > div > div > div > div:nth-child(3) > div > ul > li.logo {
+    background-color: #E3E3E3;
+}
+#block-views-viewstuff-block-2 > div > div > div > div:nth-child(3) > div > ul > li.deskripsjon {
+    background-color: #4F123C;
+}
+/* Eiendoms foredling */
+#block-views-viewstuff-block-2 > div > div > div > div:nth-child(4) > div > ul > li.logo {
+    background-color: #D1D1D1;
+}
+#block-views-viewstuff-block-2 > div > div > div > div:nth-child(4) > div > ul > li.deskripsjon {
+    background-color: #FF6C00;
+}
+
+/*Placement stuff*/
+
+#logo > img {
+    width: 17%;
+    padding: 1.5vw 0 0 3vw;
+}
+
+.member-list::before {
+    display:table;
+    content: "";
+    visibility: hidden;
+    line-height: 0;
+}
+
+.list-container {
+    clear: left;
+}
+
+.member-list {
+    display: table;
+}
+
+.bilde1, .logo, .deskripsjon, .bilde2, .deskripsjon_extra, .extra_bilde, #destillert-footer {
+    width: 25%;
+    height: 0;
+    padding-bottom: 20%;
+    position: relative;
+    float: left;
+    clear: none;
+    border: none;
+    display: table-cell;
+}
+
+li.bilde1 > div, li.logo > div, li.deskripsjon > div, li.bilde2 > div, li.deskripsjon_extra > div, li.extra_bilde > div, li.extra_bilde > div > div, #destillert-footer > div {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+li.logo > div {
+    text-align: center;
+}
+
+.black-magic {
+    display: inline-block;
+    height: 50%;
+}
+
+li.logo > div > img, .buttonmagic > a > img, #destillert-footer > div > div {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: 35%;
+    vertical-align: middle;
+    background-color: inherit;
+}
+
+.deskripsjon-inner {
+    display: block;
+    padding: 0 0 0 0;
+    height: 100%;
+    width: 100%;
+    background: inherit;
+}
+
+.gruppe_navn, .gruppe_beskrivelse, .gruppe_media {
+    float: left;
+    clear: left;
+    background: inherit;
+}
+
+.gruppe_navn, .extra_tittel {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2vw;
+    padding: 3vw 0 0 1.5vw;
+}
+
+.gruppe_beskrivelse {
+    font-size: 1.1vw;
+    white-space: pre-line;
+    overflow: hidden;
+    padding: 1vw 0 0 1.5vw;
+}
+
+.gruppe_media {
+    position: absolute;
+    bottom: 2vw;
+    left: 8vw;
+}
+
+div.gruppe_media > a {
+    float: left;
+    background: inherit;
+    padding-left: 0.7vw;
+}
+
+div.gruppe_media > a > img {
+    height: 2.4vw;
+    background: inherit;
+}
+
+.member-list {
+    display: block;
+    clear: both;
+}
+
+.kontakt-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: url(../images/kontakt.png) no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+/* Extra */
+.extraliste::before {
+    display:table;
+    content: "";
+    visibility: hidden;
+    line-height: 0;
+}
+
+.deskripsjon_extra, .extra_bilde {
+    width: 50%;
+}
+
+.extra_tittel {
+    padding: 5.5vw 0 0 13vw;
+}
+
+.extra_navn {
+    font-weight: 700;
+}
+
+.extra_person_tittel {
+    font-style: italic;
+}
+
+.extra_beskrivelse {
+    font-size: 1.1vw;
+    white-space: pre-line;
+    overflow: hidden;
+    padding: 0.5vw 0 0 13vw;
+}
+
+.extra_bilde_inner > img {
+    float: left;
+    z-index: -1;
+}
+
+.buttonmagic {
+    position: absolute;
+    text-align: center;
+}
+
+.buttonmagic > a > img {
+    height: 6vw;
+}
+
+/* Footer */
+#destillert-footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 4vw;
+    background: #363636;
+    color: #FFF;
+}
+
+#destillert {
+    color: #53FEE4;
+    text-decoration: none;
+}

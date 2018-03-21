@@ -1,0 +1,11 @@
+name = Prosjekt
+description = Et prosjekt.
+version = VERSION
+core = 7.x
+stylesheets[all][] = css/style.css
+
+; Information added by Drupal.org packaging script on 2018-02-21
+version = "7.57"
+project = "drupal"
+datestamp = "1519235152"
+
